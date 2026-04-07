@@ -98,8 +98,7 @@ export default function Hero() {
             >
               View Projects ↓
             </button>
-
-            <a href="/Dhiraj-resume.pdf" download>
+            <a href="/Portfolio/Dhiraj-resume.pdf" download>
 
               <button className="btn-outline btn-small">
                 Download CV ↓
