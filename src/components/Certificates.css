@@ -1,0 +1,22 @@
+.certs__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.cert-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.cert-card__icon { font-size: 32px; flex-shrink: 0; }
+
+.cert-card__title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.cert-card__id { font-size: 12px; color: var(--muted); }

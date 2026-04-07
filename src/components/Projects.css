@@ -1,0 +1,39 @@
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 20px;
+}
+
+.proj-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.proj-card__icon { font-size: 36px; margin-bottom: 14px; }
+
+.proj-card__title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.proj-card__period {
+  font-size: 12px;
+  color: var(--purple3);
+  margin-bottom: 10px;
+}
+
+.proj-card__desc {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.75;
+  flex: 1;
+  margin-bottom: 18px;
+}
+
+.proj-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

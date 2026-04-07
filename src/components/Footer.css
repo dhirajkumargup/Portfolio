@@ -1,0 +1,14 @@
+.footer {
+  background: var(--bg);
+  border-top: 1px solid var(--border);
+  text-align: center;
+  padding: 28px 8%;
+  font-size: 13px;
+  color: var(--muted);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer__name { color: var(--purple3); font-weight: 600; }
+.footer__copy { font-size: 12px; opacity: 0.6; }
