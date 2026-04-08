@@ -86,7 +86,7 @@ export default function Hero() {
                 .scrollIntoView({ behavior: "smooth" })
               }
             >
-            ram s
+            Connect me
             </button>
 
             <button
