@@ -86,7 +86,7 @@ export default function Hero() {
                 .scrollIntoView({ behavior: "smooth" })
               }
             >
-              Connect me
+            Connect me
             </button>
 
             <button
